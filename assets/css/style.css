@@ -1,0 +1,101 @@
+/* *{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 960px;
+} */
+
+header {
+    width: 100%;
+    background-color: white;
+    height: 94px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    margin-top: -7px;
+}
+
+nav {
+    float: right;
+    margin-top: 33px;
+    margin-right: 68px;
+}
+
+.navLinks {
+
+    margin-right:20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aaron {
+    background-color: teal;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 23px;
+    float: left;
+    margin-left: 369px;
+}
+
+#mainContent{
+
+ background-image: url("assets/images/floor-tile.png")
+    padding: 20px;
+
+}
+
+#aboutMe{
+
+    background-color: white;
+    width: 47%;
+    border: 1px solid green;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  footer{
+
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ccc;
+    background: #333;
+    clear: both;
+    border-top: solid teal 4px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+  }
+
+  h1{
+
+    border-bottom: solid lightgray 2px;
+
+  }
+
+    html {
+
+        background-image: url("../assets/images/floor-tile.png");
+
+}
+
+body{
+
+    background-image: url("../assets/images/floor-tile.png");
+
+}
