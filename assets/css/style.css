@@ -37,12 +37,12 @@ nav {
     font-size: 40px;
     padding: 23px;
     float: left;
-    margin-left: 369px;
+    margin-left: 365px;
 }
 
 #mainContent{
 
- background-image: url("assets/images/floor-tile.png")
+ 
     padding: 20px;
 
 }
@@ -54,6 +54,7 @@ nav {
     border: 1px solid green;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 24px;
 }
 
 img{
@@ -88,14 +89,12 @@ img{
 
   }
 
-    html {
+    html, body {
 
-        background-image: url("../assets/images/floor-tile.png");
-
-}
-
-body{
-
-    background-image: url("../assets/images/floor-tile.png");
+        
+        background-color: lightgray;
 
 }
+
+
+
